@@ -7,7 +7,7 @@ import {
     Form, 
     Button 
 } from "react-bootstrap";
-import logo from "./logo192.png";
+import logo from "./donut128.png";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Home from '../Pages/Home';
@@ -19,7 +19,7 @@ export default class Header extends Component {
     render() {
         return (
             <>
-                <Navbar collapseOnSelect expand="md" bg="danger" variant="light">
+                <Navbar collapseOnSelect expand="md" style={{ backgroundColor: '#E40982' }} variant="light">
                     <Container>
                         <Navbar.Brand href="/">
                             <img
@@ -31,20 +31,14 @@ export default class Header extends Component {
                             /> Ponchyk & Co
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                        <Navbar.Collapse id="responsive-navbar-nav">
+                        <Navbar.Collapse id="responsive-navbar-nav" class="d-flex flex-row-reverse bd-highlight">
                             <Nav className="mr-auto">
                                 <Nav.Link href="/">Home</Nav.Link>
-                                <Nav.Link href="/comments">Comments</Nav.Link>
+                                <Nav.Link href="/donuts">Donuts</Nav.Link>
                                 <Nav.Link href="/contacts">Contacts</Nav.Link>
-                                <Nav.Link href="/maps">Maps</Nav.Link>
+                                <Nav.Link href="/comments">Comments</Nav.Link>
+                                <Nav.Link href="/about">About us</Nav.Link>
                             </Nav>
-                            <Form className="d-flex">
-                                <FormControl
-                                    type="text"
-                                    placeholder="Search"
-                                    className="mr-sm-2"
-                                />
-                            </Form>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
@@ -52,9 +46,10 @@ export default class Header extends Component {
                 <Router>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/comments" element={<Comments />} />
+                        <Route path="/donuts" element={<Comments />} />
                         <Route path="/contacts" element={<Contacts />} />
-                        <Route path="/maps" element={<Maps />} />
+                        <Route path="/comments" element={<Comments />} /> 
+                        <Route path="/about" element={<Maps />} />
                     </Routes>
                 </Router>
             </>
