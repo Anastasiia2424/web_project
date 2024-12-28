@@ -1,13 +1,20 @@
-.happy-customers {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #fff8e1;
+.happy-customers-container {
+    background-color: #FFE5EC;
+    background-image: url(https://s0.wp.com/wp-content/themes/pub/cakely/assets/images/cake-pattern.png);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: auto;
 }
 
 .happy-customers h2 {
-    color: #ff4081;
+    color: #E40982;
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+.happy-customers h3 {
+    color: #E40982;
+    font-size: 2rem;
 }
 
 .happy-customers .testimonials {
@@ -17,13 +24,15 @@
     gap: 20px;
 }
 
+.testimonial .card-body {
+    padding: 56px;
+}
+
 .testimonial {
-    border: 1px solid #ddd;
+    border: 1px solid #E40982;
     border-radius: 10px;
-    padding: 15px;
-    max-width: 250px;
-    text-align: center;
-    background: #fff;
+    max-width: 450px;
+    background: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -31,20 +40,8 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.testimonial p:first-child {
-    font-size: 20px;
-    color: #ffb400;
-    margin-bottom: 10px;
-}
-
 .testimonial p {
-    margin: 10px 0;
-    color: #555;
-}
-
-.testimonial p:last-child {
-    font-style: italic;
-    color: #333;
+    color: #6c757d;
 }
 
 @media (max-width: 768px) {
