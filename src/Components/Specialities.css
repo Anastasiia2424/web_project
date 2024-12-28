@@ -1,17 +1,43 @@
-.specialities {
-    padding: 40px 20px;
-    background-color: #fff4ee;
-    text-align: center;
-}
-
-.specialities h2 {
+.speciality-collection h2 {
     color: #ff4081;
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: clamp(0.9rem, 0.9rem + ((1vw - 0.2rem) * 0.341), 1.125rem);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-.specialities-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+.speciality-card {
+    border: none;
+}
+
+.speciality-card > img {
+    border-radius: 1%;
+    aspect-ratio: 3/4;
+}
+
+.speciality-card .card-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.speciality-title {
+    font-size: 18px;
+    color: #E40982;
+}
+
+@media (max-width: 768px) {
+    .speciality-collection .row {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .speciality-card {
+        max-width: 100%;
+    }
+
+    .speciality-more {
+        display: block;
+        margin-top: 20px;
+    }
 }
