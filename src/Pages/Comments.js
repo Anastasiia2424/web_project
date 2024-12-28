@@ -105,7 +105,7 @@ const Comments = () => {
       return (
         <Container fluid className="happy-customers-container m-0 p-0">
           <Container className='happy-customers p-5'>        
-            <h2>CUSTOMER COMMENTS</h2>
+            <div className="happy-customers-title"><h2>CUSTOMER COMMENTS</h2></div>
             <Row className="testimonials justify-content-center align-items-stretch">
               {testimonials.map((testimonial, index) => (
                 <Col key={index} className="d-flex justify-content-center align-items-stretch">

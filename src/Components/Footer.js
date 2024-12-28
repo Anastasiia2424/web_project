@@ -12,8 +12,8 @@ const Footer = () => {
             <a href="/" className="footer-home">Ponchyk & Co</a>
             <p>Bringing happiness to your taste buds with every bite. At Ponchyk & Co, we craft the finest donuts with love, perfect for any craving. Fresh, fluffy, and utterly delightful.</p>
           </Col>
-          <Col md={3} className="footer-contact ">
-              <p>123 Zhytomyrska street,<br/>Kyiv, Ukraine<br/>03179</p>
+          <Col md={3} className="footer-contact "> 
+              <p>22 Mytropolyta Andreia Sheptytskoho St,<br/>Kyiv, Ukraine<br/>02000</p>
               <p><a href="tel:+380441234567">+38 (044) 123-4567</a></p>
               <p><a href="mailto:hello@ponchykco.com">hello@ponchykco.com</a></p>
           </Col>

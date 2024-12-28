@@ -6,7 +6,7 @@ import Home from '../Pages/Home';
 import Donuts from '../Pages/Donuts';
 import Comments from '../Pages/Comments';
 // import Contacts from '../Pages/Contacts';
-import Maps from '../Pages/Map';
+import About from '../Pages/About';
 
 import './Header.css';
 
@@ -36,7 +36,7 @@ export default class Header extends Component {
                         <Route path="/donuts" element={<Donuts />} />
                         <Route path="/comments" element={<Comments />} /> 
                         {/* <Route path="/contacts" element={<Contacts />} /> */}
-                        <Route path="/about" element={<Maps />} />
+                        <Route path="/about" element={<About />} />
                     </Routes>
                 </Router>
             </>

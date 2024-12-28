@@ -7,6 +7,17 @@
     margin: 0;
 }
 
+.donut-collection-title h2 {
+    color: #ff4081;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 0.93;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 .donut-card {
     border: none;
 }

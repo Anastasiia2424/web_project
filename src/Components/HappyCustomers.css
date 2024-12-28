@@ -15,6 +15,17 @@
     margin-bottom: 20px;
 }
 
+.happy-customers-title h2 {
+    color: #ff4081;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 0.93;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 .happy-customers h3 {
     color: #E40982;
     font-size: 2rem;

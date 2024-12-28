@@ -24,7 +24,7 @@ const Donuts = () => {
     
       return (
         <Container fluid className="donuts-container m-0 p-0">        
-            <Container className="donut-collection my-2 p-5">
+            <Container className="donut-collection-title my-2 p-5">
             <h2>OUR DELICIOUS DONUTS</h2>
             <Row md={4} className="justify-content-center align-items-stretch my-4">
                 {donuts.map((donut, index) => (
