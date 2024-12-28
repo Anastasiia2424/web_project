@@ -11,6 +11,7 @@ import logo from "./donut128.png";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import Home from '../Pages/Home';
+import Donuts from '../Pages/Donuts';
 import Comments from '../Pages/Comments';
 import Contacts from '../Pages/Contacts';
 import Maps from '../Pages/Map';
@@ -46,7 +47,7 @@ export default class Header extends Component {
                 <Router>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/donuts" element={<Comments />} />
+                        <Route path="/donuts" element={<Donuts />} />
                         <Route path="/comments" element={<Comments />} /> 
                         <Route path="/contacts" element={<Contacts />} />
                         <Route path="/about" element={<Maps />} />
