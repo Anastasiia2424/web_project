@@ -1,18 +1,23 @@
-/* Donut Collection Styles */
 .donut-collection {
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
     background-color: #fff0f6;
-  }
-  
-  .donut-collection .donuts {
+}
+
+.donut-collection h2 {
+    color: #ff4081;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.donut-collection .donuts {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .donut-card {
+}
+
+.donut-card {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 15px;
@@ -20,53 +25,51 @@
     text-align: center;
     background: #fff;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .donut-card:hover {
+}
+
+.donut-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .donut-card img {
+}
+
+.donut-card img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-  }
-  
-  .donut-card h3 {
+}
+
+.donut-card h3 {
     margin: 10px 0;
     font-size: 18px;
     color: #333;
-  }
-  
-  .donut-card p {
+}
+
+.donut-card p {
     font-size: 16px;
     font-weight: bold;
     color: #ff4081;
-  }
-  
-  .see-more {
+}
+
+.see-more {
     display: inline-block;
     margin-top: 20px;
     color: #ff4081;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-  }
-  
-  .see-more:hover {
+}
+
+.see-more:hover {
     text-decoration: underline;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .donut-collection .donuts {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .donut-card {
-      max-width: 100%;
+        max-width: 100%;
     }
-  }
-  
+}

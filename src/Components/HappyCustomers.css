@@ -1,18 +1,23 @@
-/* Happy Customers Styles */
 .happy-customers {
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px;
     background-color: #fff8e1;
-  }
-  
-  .happy-customers .testimonials {
+}
+
+.happy-customers h2 {
+    color: #ff4081;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.happy-customers .testimonials {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .testimonial {
+}
+
+.testimonial {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 15px;
@@ -20,37 +25,35 @@
     text-align: center;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .testimonial:hover {
+}
+
+.testimonial:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .testimonial p:first-child {
+}
+
+.testimonial p:first-child {
     font-size: 20px;
     color: #ffb400;
     margin-bottom: 10px;
-  }
-  
-  .testimonial p {
+}
+
+.testimonial p {
     margin: 10px 0;
     color: #555;
-  }
-  
-  .testimonial p:last-child {
+}
+
+.testimonial p:last-child {
     font-style: italic;
     color: #333;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .happy-customers .testimonials {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .testimonial {
-      max-width: 100%;
+        max-width: 100%;
     }
-  }
-  
+}
