@@ -1,17 +1,19 @@
 .banner {
-    background-color: #ffc107;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
+    color: #E40982;
 }
 
 .banner h1 {
-    font-size: 2.5rem;
-    margin: 0;
+    font-size: 3.725rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 0.93;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
-.banner p {
-    margin: 20px auto 0;
+.banner p { 
     max-width: 600px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: #6c757d;;
 }
