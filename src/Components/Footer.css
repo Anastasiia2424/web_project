@@ -1,0 +1,46 @@
+.footer {
+  background-color: #FEF3ED;
+  color: #7C6E67;
+}
+
+.footer-home {
+  display: inline-block;
+  color: #7C6E67;
+  margin-bottom: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.footer-home:hover {
+  text-decoration: underline;
+}
+
+.footer-description p {
+  font-size: 1.5rem;
+}
+
+.footer-links ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links p,
+.footer-contact p {
+  margin-bottom: 10px;
+}
+
+.footer-contact a,
+.footer-links a {
+  color: #E40982;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-contact a:hover {
+  text-decoration: underline;
+}

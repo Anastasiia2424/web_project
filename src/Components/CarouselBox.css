@@ -1,0 +1,10 @@
+.carousel-image-container {
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel-image-container img {
+    width: 50%; /* Double the width to ensure the image is clipped correctly */
+    transform: translateX(-25%); /* Move the image to the left to show the center part */
+}

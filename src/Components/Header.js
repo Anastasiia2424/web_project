@@ -1,43 +1,29 @@
 import React, { Component } from 'react';
-import { 
-    FormControl, 
-    Nav, 
-    Navbar, 
-    Container, 
-    Form, 
-    Button 
-} from "react-bootstrap";
-import logo from "./donut128.png";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {  Nav, Navbar, Container } from "react-bootstrap";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from '../Pages/Home';
 import Donuts from '../Pages/Donuts';
 import Comments from '../Pages/Comments';
-import Contacts from '../Pages/Contacts';
-import Maps from '../Pages/Map';
+// import Contacts from '../Pages/Contacts';
+import About from '../Pages/About';
+
+import './Header.css';
 
 export default class Header extends Component {
     render() {
         return (
             <>
-                <Navbar collapseOnSelect expand="md" style={{ backgroundColor: '#E40982' }} variant="light">
-                    <Container>
-                        <Navbar.Brand href="/">
-                            <img
-                                src={logo}
-                                height="30"
-                                width="30"
-                                className="d-inline-block align-top"
-                                alt="Logo"
-                            /> Ponchyk & Co
-                        </Navbar.Brand>
+                <Navbar collapseOnSelect variant="light" className="header p-1">
+                    <Container className="header-container px-5">
+                        <Navbar.Brand href="/" className="brand">Ponchyk & Co</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav" class="d-flex flex-row-reverse bd-highlight">
                             <Nav className="mr-auto">
                                 <Nav.Link href="/">Home</Nav.Link>
                                 <Nav.Link href="/donuts">Donuts</Nav.Link>
                                 <Nav.Link href="/comments">Comments</Nav.Link>
-                                <Nav.Link href="/contacts">Contacts</Nav.Link>
+                                {/* <Nav.Link href="/contacts">Contacts</Nav.Link> */}
                                 <Nav.Link href="/about">About us</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
@@ -49,8 +35,8 @@ export default class Header extends Component {
                         <Route path="/" element={<Home />} />
                         <Route path="/donuts" element={<Donuts />} />
                         <Route path="/comments" element={<Comments />} /> 
-                        <Route path="/contacts" element={<Contacts />} />
-                        <Route path="/about" element={<Maps />} />
+                        {/* <Route path="/contacts" element={<Contacts />} /> */}
+                        <Route path="/about" element={<About />} />
                     </Routes>
                 </Router>
             </>

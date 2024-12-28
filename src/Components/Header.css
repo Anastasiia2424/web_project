@@ -1,0 +1,19 @@
+.header {
+  background-color: #E40982;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.header .brand {
+    font-size: 1.275rem;
+    font-weight: 500;
+    margin: 0;
+}

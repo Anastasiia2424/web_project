@@ -1,0 +1,23 @@
+.speciality-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .speciality-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .speciality-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .speciality-card h3 {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
