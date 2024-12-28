@@ -1,0 +1,56 @@
+/* Happy Customers Styles */
+.happy-customers {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff8e1;
+  }
+  
+  .happy-customers .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 250px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial p:first-child {
+    font-size: 20px;
+    color: #ffb400;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .testimonial p:last-child {
+    font-style: italic;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .happy-customers .testimonials {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial {
+      max-width: 100%;
+    }
+  }
+  
