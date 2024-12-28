@@ -1,6 +1,9 @@
 .donut-collection h2 {
     color: #ff4081;
-    font-size: 2rem;
+    font-size: clamp(0.9rem, 0.9rem + ((1vw - 0.2rem) * 0.341), 1.125rem);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
     margin: 0;
 }
 

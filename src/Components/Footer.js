@@ -9,8 +9,7 @@ const Footer = () => {
       <Container className="footer-content p-5">
         <Row className="footer-row justify-content-center align-items-stretch flex-nowrap">
           <Col md={7}  className="footer-description "> 
-            {/* <h2>Ponchyk & Co</h2> */}
-            <a href="/home" className="footer-home">Ponchyk & Co</a>
+            <a href="/" className="footer-home">Ponchyk & Co</a>
             <p>Bringing happiness to your taste buds with every bite. At Ponchyk & Co, we craft the finest donuts with love, perfect for any craving. Fresh, fluffy, and utterly delightful.</p>
           </Col>
           <Col md={3} className="footer-contact ">

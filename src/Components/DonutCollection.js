@@ -13,7 +13,7 @@ const DonutCollection = () => {
 
   return (
     <Container className="donut-collection my-5 p-5">
-      <h2>Donut Collection</h2>
+      <h2>DONUT COLLECTION</h2>
       <Row className="justify-content-center align-items-center flex-nowrap my-3 g-5">
         {donuts.map((donut, index) => (
           <Col key={index} className="m-0">

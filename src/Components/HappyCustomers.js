@@ -21,7 +21,7 @@ const HappyCustomers = () => {
   return (
     <Container fluid className="happy-customers-container m-0 p-0">
       <Container className='happy-customers p-5'>        
-        <h2>Happy Customers</h2>
+        <h2>HAPPY CUSTOMERS</h2>
         <Row className="testimonials justify-content-center align-items-stretch flex-nowrap">
           {testimonials.map((testimonial, index) => (
             <Col key={index} className="d-flex justify-content-center align-items-stretch">

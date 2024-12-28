@@ -15,7 +15,7 @@ const AboutUsBanner = () => {
                 mini-donuts for any occasion—birthdays, corporate events, weddings,
                 and more.
               </p>
-              <Button className="read-more mt-4" href="/aboutus">READ MORE</Button>
+              <Button className="read-more mt-4" href="/about">READ MORE</Button>
             </Col>
             <Col className="about-us-image d-flex justify-content-center align-items-center">
                 <img
