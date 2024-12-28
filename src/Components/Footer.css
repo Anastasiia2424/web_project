@@ -1,0 +1,55 @@
+.footer {
+  background-color: #fff7e6; /* Light beige background */
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  color: #8c5832; /* Brown text color for a warm donut feel */
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-description {
+  max-width: 30%;
+}
+
+.footer-description h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-description p {
+  line-height: 1.5;
+}
+
+.footer-contact p,
+.footer-contact a {
+  margin: 5px 0;
+  color: #8c5832;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #f39c12; /* Warm orange hover color */
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  margin: 5px 0;
+  color: #f39c12; /* Orange links */
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
