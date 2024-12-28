@@ -1,61 +1,40 @@
-.donut-collection {
-    text-align: center;
-    padding: 40px 20px;
-    background-color: #fff0f6;
-}
-
 .donut-collection h2 {
     color: #ff4081;
     font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.donut-collection .donuts {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    margin: 0;
 }
 
 .donut-card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    max-width: 200px;
-    text-align: center;
-    background: #fff;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: none;
 }
 
-.donut-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+.donut-card > img {
+    border-radius: 1%;
+    aspect-ratio: 3/4;
 }
 
-.donut-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+.donut-card .card-body {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.donut-card h3 {
-    margin: 10px 0;
+.donut-title {
     font-size: 18px;
-    color: #333;
+    color: #E40982;
 }
 
-.donut-card p {
+.donut-price {
     font-size: 16px;
-    font-weight: bold;
-    color: #ff4081;
+    color: #7C6E67;
 }
 
 .see-more {
     display: inline-block;
-    margin-top: 20px;
-    color: #ff4081;
+    color: #E40982;
+    margin-bottom: 36px;
+    font-weight: 600;
+    line-height: 1.1;
     text-decoration: none;
-    font-weight: bold;
     font-size: 16px;
 }
 
@@ -64,12 +43,17 @@
 }
 
 @media (max-width: 768px) {
-    .donut-collection .donuts {
+    .donut-collection .row {
         flex-direction: column;
-        align-items: center;
+        align-items: center; 
     }
 
     .donut-card {
         max-width: 100%;
+    }
+
+    .see-more {
+        display: block;
+        margin-top: 20px;
     }
 }
