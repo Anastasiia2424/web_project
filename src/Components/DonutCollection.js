@@ -12,9 +12,9 @@ const DonutCollection = () => {
   ];
 
   return (
-    <Container fluid className="my-5 p-5 donut-collection">
+    <Container className="donut-collection my-5 p-5">
       <h2>Donut Collection</h2>
-      <Row className="my-3 g-5 justify-content-center align-items-center flex-nowrap">
+      <Row className="justify-content-center align-items-center flex-nowrap my-3 g-5">
         {donuts.map((donut, index) => (
           <Col key={index} className="m-0">
             <Card className="donut-card">

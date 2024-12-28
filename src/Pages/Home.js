@@ -8,7 +8,7 @@ import HappyCustomers from '../Components/HappyCustomers';
 
 const Home = () => {
     return (
-        <Container fluid>
+        <Container fluid className="m-0 p-0">
             <Banner />
             <Specialities />
             <AboutUsBanner />
