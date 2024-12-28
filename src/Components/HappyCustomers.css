@@ -1,0 +1,70 @@
+.happy-customers-container {
+    background-color: #FFE5EC;
+    background-image: url(https://s0.wp.com/wp-content/themes/pub/cakely/assets/images/cake-pattern.png);
+    background-position: 50% 50%;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.happy-customers h2 {
+    color: #ff4081;
+    font-size: clamp(0.9rem, 0.9rem + ((1vw - 0.2rem) * 0.341), 1.125rem);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.happy-customers-title h2 {
+    color: #ff4081;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 0.93;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.happy-customers h3 {
+    color: #E40982;
+    font-size: 2rem;
+}
+
+.happy-customers .testimonials {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial .card-body {
+    padding: 56px;
+}
+
+.testimonial {
+    border: 1px solid #E40982;
+    border-radius: 10px;
+    max-width: 450px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial p {
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .happy-customers .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        max-width: 100%;
+    }
+}
